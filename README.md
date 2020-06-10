@@ -19,8 +19,8 @@ For additional Python machine learning resources, please see the excellent book 
 
 ### Software to follow along
 1. Anaconda with either Jupyter or Spyder:
-** Jupyter Notebook (Interactive Python Notebook)
-** Spyder (GUI + Console)
+   * Jupyter Notebook (Interactive Python Notebook)
+   * Spyder (GUI + Console)
 
 ### To Dos
 The scripts were thrown together quickly, so there are some significant re-factoring opportunties that I plan to get to. Also planning to migrate the scripted python code to cleaner Jupyter Notebooks.
