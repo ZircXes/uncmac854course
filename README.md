@@ -1,13 +1,12 @@
 # UNC Kenan-Flagler MAC 854
 UNC MAC 854: Data Analytics for Accountants
 
-### The repository is organized by folders as follows:
-1. overview: Course Overview and Instructor Bio
-2. toolbox: Course tools and getting started
-3. Weeks 01 - 05: course python supplemental material
-4. assignments: Optional python assignments
+#### The repository is organized by folders as follows:
+1. Course Overview: Course Overview, Toolbox, and Instructor Bio
+2. Weeks 01 - 05: course python supplemental material
+3. Assignments: Optional python assignments
 
-### This repository includes basic python code which provides an introduction to the following packages and concepts:
+#### This repository includes basic python code which provides an introduction to the following packages and concepts:
 1. Manipulating data with Pandas and Numpy
 2. Statistics with scipy.stats
 3. Linear and Logistic regression with SKLearn
@@ -23,10 +22,10 @@ Traditionally we focused on a statistics approach to linear regression (p-values
 
 For additional Python machine learning resources, please see the excellent book (and GitHub page) by Aurélien Géron at https://github.com/ageron/handson-ml2.
 
-### Software to follow along
+#### Software to follow along
 1. Anaconda with either Jupyter or Spyder:
    * Jupyter Notebook (Interactive Python Notebook)
    * Spyder (GUI + Console)
 
-### To Dos
+#### To Dos
 The scripts were thrown together quickly, so there are some significant re-factoring opportunties that I plan to get to. Also planning to migrate the scripted python code to cleaner Jupyter Notebooks.
