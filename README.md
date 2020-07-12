@@ -3,8 +3,12 @@ UNC MAC 854: Data Analytics for Accountants
 
 #### The repository is organized by folders as follows:
 1. Course Overview: Course Overview, Toolbox, and Instructor Bio
-2. Weeks 01 - 05: course python supplemental material
-3. Assignments: Optional python assignments
+2. Week 01: Statistics in Python
+3. Week 02: Linear and Ridge Regression + Information Value
+4. Week 03: Logistic Regression, Decision Trees, and Confusion Matrices
+5. Week 04: Data manipulation with SQL
+6. Week 05: Data vizualization with Matplotlib
+7. Assignments: Optional python assignments
 
 #### This repository includes basic python code which provides an introduction to the following packages and concepts:
 1. Manipulating data with Pandas and Numpy
