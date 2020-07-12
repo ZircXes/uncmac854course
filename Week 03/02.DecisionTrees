@@ -1,0 +1,74 @@
+# Decision and Classification Trees in Python
+Decision trees allow for binary and multi-class classification that typically provides a probability between 0 and 1 of an observation belonging to a class. 
+
+Decision trees can work with categorical and numerical data, which gives them expanded flexibility over logistic regression. Additionally, fewer statistical assumptions are required.
+
+The risks of decision trees are that they can easily over-fit the data without careful considerations. If you are going to use decision trees, you should strongly consider validation/cross-validation sets, or consider advanced machine learning topics such as random forest.
+
+Decision trees have many more hyperparameters that allow for customization vs. logistic regression.
+
+## Video
+[Video]
+
+
+###Decision Trees in Python and Sci-Kit Learn
+Libraries
+```
+import pandas as pd 
+from sklearn implort tree
+from sklearn.metrics import confusion_matrix, roc_curve, auc 
+from sklearn.tree import export_graphviz
+from graphviz import Source
+```
+
+Fitting Decision Trees
+```
+model = tree.DecisionTreeClassifier(random_state = 42, criterion="gini", splitter="best", max_depth=2)
+model = model.fit(X, y)
+```
+
+There are many parameters for decision trees, a common one to adjust is the max_depth parameter.
+[TODO] More detail on the many choices for decision trees, and some of their limitations
+
+Making Predictions
+```
+yp = model.predict(X)
+yprob = model.predict_proba(X)
+```
+
+Measuring Performance with a confusion matrix
+```
+tn, fp, fn, tp = confusion_matrix(y, yp).ravel()
+
+fpr, tpr, thresholds = roc_curve(y, yprob[:,1])
+
+roc_auc= auc(fpr, tpr)
+```
+
+Visualizing your tree
+```
+export_graphviz(model, out_file="outfile.dot", feature_names=X.columns)
+Source.from_file("outfile.dot")
+```
+
+#### Interpreting your Decision Tree Model
+Confusion matrix values
+
+[TODO]
+
+ROC Curves
+
+[TODO]
+
+### Full Code Examples
+1. UNC Demo
+   a. Build a variety of decision trees on the UNC dataset.
+
+
+### References
+#### FAQ
+[Placeholder]
+
+#### Support Links
+1. [SKLearn documentation: Decision Trees](https://scikit-learn.org/stable/modules/tree.html)
+2. [Géron - Chapter 06 - Decision Trees](https://github.com/ageron/handson-ml2/blob/master/06_decision_trees.ipynb)
