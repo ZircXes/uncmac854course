@@ -1,4 +1,4 @@
-# UNC Kenan-Flagler MAC 854
+# UNC Kenan-Flagler MAC 854: Optional Python Content
 UNC MAC 854: Data Analytics for Accountants
 
 #### The repository is organized by folders as follows:
@@ -17,6 +17,7 @@ UNC MAC 854: Data Analytics for Accountants
 4. Regularization (basic)
 5. Decision and Classification trees
 6. Databases and SQL with SQLite3
+7. Visualization with MatPlotLib.pyplot
 
 The approaches here are targeted towards a non-quant, non-data scientist with an interest in learning these techniques in Python as opposed to SAS JMP, SAS, EXCEL, or MS Access. Additionally, modern systems will not use Excel or MS Access and will likely be embedded in Python, SAS, or R.
 
