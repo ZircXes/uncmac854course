@@ -1,0 +1,24 @@
+# Optional Course Resources for MAC 854
+Additional software, textbook, and web-resources for the course.
+
+### Python Software:
+* [Anaconda - Individual User](https://www.anaconda.com)
+* [Jupyter Notebook](https://jupyter.org) (Part of Anaconda)
+
+### SQLite DB Viewer (Companion when using Python with SQLite3):
+* [SQLite Browser](https://sqlitebrowser.org) (Open-Source)
+
+### Additional Textbooks:
+* Aurélien Géron, "*Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition*"
+  * [Publisher Book Link](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+  * Github Page: https://github.com/ageron/handson-ml2
+* Stephen Few, "*Show Me the Numbers, 2nd edition*"
+  * [Amazon Book Link](https://www.amazon.com/Show-Me-Numbers-Designing-Enlighten/dp/0970601972)
+
+### Additional Course Resources:
+* Course GitHub Page: https://github.com/ZircXes/uncmac854course
+* [Course FAQ](https://docs.google.com/document/d/1n30i2oHHTJXtyXqMzrsT9FccBwG_HpDaDCJarFcxr9E) (Google Drive)
+* [SQL Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
+* [Markdown Cheat Sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Python - Getting Started](https://www.python.org/about/gettingstarted/)
+* [Advanced: PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
