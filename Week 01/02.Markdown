@@ -1,0 +1,17 @@
+# Introduction to Markdown (.md) and reStructured Text (RST)
+Rich text formats are lightweight and designed for the quick writing of inline styles without requiring a formal word processor. We use "Markdown" in Jupyter Notebooks to provide inline rich text.
+
+Advanced python documentation utilities may also use Markdown or ReStructured Text (RST). RST is slightly more complex than markdown and is not required for this course, but I include it for completeness as it is used in auto-documentation utilities such as Sphinx.
+
+Key formats you will want from markdown to use it quickly are:
+* Headings
+* Lists
+* Bold/Italics
+* Links
+* Inline code and Block code styles
+
+#### Links for additional resources:
+1. [Markdown guide on GitHub] (https://guides.github.com/features/mastering-markdown/)
+2. [reStructured Text (RST) on Wikipedia](https://en.wikipedia.org/wiki/ReStructuredText)
+3. [Online Markdown editor](https://dillinger.io/)
+   * Or just try out on GitHub with your own .md page
