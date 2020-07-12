@@ -1,7 +1,13 @@
 # UNC Kenan-Flagler MAC 854
 UNC MAC 854: Data Analytics for Accountants
 
-This repository includes basic python code which provides an introduction to the following packages and concepts:
+### The repository is organized by folders as follows:
+1. overview: Course Overview and Instructor Bio
+2. toolbox: Course tools and getting started
+3. Weeks 01 - 05: course python supplemental material
+4. assignments: Optional python assignments
+
+### This repository includes basic python code which provides an introduction to the following packages and concepts:
 1. Manipulating data with Pandas and Numpy
 2. Statistics with scipy.stats
 3. Linear and Logistic regression with SKLearn
